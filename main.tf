@@ -14,6 +14,7 @@ data "terraform_remote_state" "cluster" {
     organization = var.organization
     workspaces = {
       name = var.cluster_workspace
+      #testing1
     }
   }
 }
